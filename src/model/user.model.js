@@ -2,7 +2,6 @@ import db from "../config/db.js";
 
 export const getAlluser = (callback) => {
     const sql = "SELECT * FROM users"
-
     db.query(sql, callback)
 }
 export const getOneUser = (id, callback) => {

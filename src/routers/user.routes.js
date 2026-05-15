@@ -9,7 +9,6 @@ import {
 
 const routes = express.Router();
 
-
 routes.get('/', getusers)
 routes.get('/:id', displayOne)
 routes.put('/', update)
